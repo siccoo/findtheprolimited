@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FindThePro Limited Plc</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <!-- Elements for navigation bar -->
+  <div class="nav-bar">
+    <div class="navigate">
+      <a class="active" href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="search-container">
+      <form action="" method="get">
+        <input type="text" id="mySearch" onkeyup="myFunction()" title="Type in a category" placeholder="Search..">
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Elements for Bootstrap Jumbotron  -->
+  <div class="content-jumbotron">
+    <div class="jumbotron">
+      <h4>Platform Limited</h4>
+      <p>Welcome to Platform Limited, the firm where you can reckon with us for your software application. </p>
+      <a id="btn" class='btn1' href="about.html">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Images of workers displayed -->
+  <div class="team-div">
+    <h1 id="team">MEET THE STAFFS</h1>
+
+    <div class="team-container">
+      <div class="card" id="card">
+        <div class="img_wrp">
+          <img src="./images/michael.jpg" alt="" class="img-circle">
+        </div>
+
+        <div class="container">
+          <p class="team-members">Michael Chilaka</p>
+          <p>Platform Limited</p>
+          <p>Front End Developer</p>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="img_wrp">
+          <img src="./images/ugonma.jpg" alt="" class="img-circle">
+        </div>
+
+        <div class="container">
+          <p class="team-members">Vivian Dickson</p>
+          <p>Platform Limited</p>
+          <p>UI/UX Developer</p>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="img_wrp">
+          <img src="./images/emmanuel.jpg" alt="" class="img-circle">
+
+        </div>
+        <div class="container">
+          <p class="team-members">Emmanuel Chijioke</p>
+          <p>Platform Limited</p>
+          <p>Back End Developer</p>
+        </div>
+      </div>
+
+      <script src="home.js"></script>
+</body>
+
+</html>
