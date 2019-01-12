@@ -1,20 +1,19 @@
-'use strict';
-
 function myFunction() {
       // Declare variables
-      var input, div, filter, img, p, ul, li, a, i;
+      var input, div, filter, img, p, ul, li, a, i, txtValue;
       input = document.getElementById("mySearch");
       filter = input.value;
-      ul = document.getElementById("myMenu");
-      li = ul.getElementsByTagName("li");
+      div = document.getElementById("card");
+      p = div.getElementsByTagName("p");
     
       // Loop through all list items, and hide those who don't match the search query
-      for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.indexOf(filter) > -1) {
-          li[i].style.display = "";
+      for (i = 0; i < p.length; i++) {
+        div = p[i].getElementsByTagName("p")[0];
+        txtValue = p.textContent || p.innerHTML;
+        if (txtValue.indexOf(filter) > -1) {
+          p[i].style.display = "";
         } else {
-          li[i].style.display = "none";
+          p[i].style.display = "No Result Found";
         }
       }
     }

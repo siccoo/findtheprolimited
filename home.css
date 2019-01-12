@@ -100,6 +100,11 @@ body {
   flex-direction: column;
 }
 
+/* .jumbotron h4 p {
+  padding: 25px;
+  margin: 15px 0 15px;
+} */
+
 /* Style the staffs images */
 .team-div {
   background-color: #fff;
@@ -111,6 +116,11 @@ body {
   text-align: center;
   position: relative;
   top: 3rem;
+}
+
+.institution .position {
+  display: flex;
+  position: relative;
 }
 
 .team-container {
@@ -161,7 +171,8 @@ line-height: 1.4;
 .container .team-members {
   padding: 0 0 ;
   color: #2196f3;
-  font-size: 30px;
+  font-size: 20px;
+  /* float: left; */
 }
 
 .img-circle {
