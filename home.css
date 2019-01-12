@@ -50,7 +50,8 @@ body {
   /* Style the search logo inside the Search button  */
 .fa fa-search {
     margin-right: 16px;
-    margin-top: 8px;
+    margin-top: -16px;
+    
 }
 
 .nav-bar .search-container {
